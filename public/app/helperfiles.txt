@@ -1,0 +1,4 @@
+http://geo.azmag.gov/maps/demographic/app/helpers/bookmark-delegate.js
+http://geo.azmag.gov/maps/demographic/app/helpers/layer-delegate.js
+http://geo.azmag.gov/maps/demographic/app/helpers/magNumberFormatter.js
+http://geo.azmag.gov/maps/demographic/app/helpers/printMap-delegate.js

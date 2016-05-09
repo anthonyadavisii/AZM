@@ -1,0 +1,37 @@
+<div id="reportLauncher">
+    <h1>Choose a report:</h1>
+
+    <button id="launchCountySummaryWin" class="k-button cb" type="button" title="County Summary" href="#" data-bind="click: displayCountyChoice">County Summary</button>
+	    <div id="countyChoiceDiv">
+            <input id="countyComboBox">
+            <button id="countyButton" class="k-button getButton" title="Pick a County" type="button" data-bind="click: openCountySummaryWindow">Get Report</button>
+	     </div>
+
+    <button id="launchPlaceSummaryWin" class="k-button cb" type="button" title="Place Summary" href="#" data-bind="click: displayPlaceChoice">City/Town Summary</button>
+        <div id="placeChoiceDiv">
+            <input id="placeComboBox">
+            <button id="placeButton" class="k-button getButton" title="Pick a City or Town" type="button" data-bind="click: openPlaceSummaryWindow">Get Report</button>
+        </div>
+
+    <button id="launchCouncilSummaryWin" class="k-button cb" type="button" title="Council Summary" href="#" data-bind="click: displayCouncilChoice">Council District Summary</button>
+        <div id="councilChoiceDiv">
+            <input id="councilComboBox">
+            <button id="councilButton" class="k-button getButton" title="Pick a Council District" type="button" data-bind="click: openCouncilSummaryWindow">Get Report</button>
+        </div>
+
+    <button id="launchSupervisorSummaryWin" class="k-button cb" type="button" title="Supervisor Summary" href="#" data-bind="click: displaySupervisorChoice">Supervisor District Summary</button>
+    <div id="supervisorChoiceDiv">
+        <input id="supervisorComboBox">
+        <button id="supervisorButton" class="k-button getButton" title="Pick a Supervisor District" type="button" data-bind="click: openSupervisorSummaryWindow">Get Report</button>
+    </div>
+
+    <!--  <button id="launchZipCodeEmpSummaryWin" class="k-button cb" type="button" title="" href="#" data-bind="click: displayZipCodeChoice">Zip Code Summary</button>
+    <div id="zipCodeChoiceDiv">
+        <input id="zipCodeComboBox">
+        <button id="zipCodeButton" class="k-button getButton" title="Choose a Zip Code" type="button" data-bind="click: openZipCodeSummaryWindow">Get Report</button>
+    </div> -->
+
+    <button id="launchInteractiveSummaryDiv" class="k-button cb" title="Custom Summary" href="#" data-bind="click: displayInteractiveDiv">Custom Summary</button>
+
+    <button id="launchQB" class="k-button cb" type="button" title="Query Builder" href="#" data-bind="click: openQueryBuilder">Advanced Query</button>
+</div>
