@@ -1,0 +1,12 @@
+http://geo.azmag.gov/maps/demographic/app/resources/img/question-frame.png
+http://geo.azmag.gov/maps/demographic/app/resources/img/i_excel.png
+http://geo.azmag.gov/maps/demographic/app/resources/img/i_pdf.png
+http://geo.azmag.gov/maps/demographic/app/resources/img/EditMarkup.png
+http://geo.azmag.gov/maps/demographic/app/resources/img/DeleteMarkup.png
+http://geo.azmag.gov/maps/demographic/app/resources/img/UndoMarkup.png
+http://geo.azmag.gov/maps/demographic/app/resources/img/i_draw_poly.png
+http://geo.azmag.gov/maps/demographic/app/resources/img/i_draw_circle.png
+http://geo.azmag.gov/maps/demographic/app/resources/img/i_draw_arrow.png
+http://geo.azmag.gov/maps/demographic/app/resources/img/i_draw_freepoly.png
+http://geo.azmag.gov/maps/demographic/app/resources/img/i_draw_text.png
+http://geo.azmag.gov/maps/demographic/app/resources/img/loading.gif
