@@ -1,5 +1,5 @@
-http://geo.azmag.gov/maps/demographic/app/vm/cbrConfig.js
-http://geo.azmag.gov/maps/demographic/app/vm/colorRampConfig.js
-http://geo.azmag.gov/maps/demographic/app/vm/domographicConfig.js
-http://geo.azmag.gov/maps/demographic/app/vm/interactiveToolsConfig.js
-http://geo.azmag.gov/maps/demographic/app/vm/searchConfig.js
+http://geo.azmag.gov/maps/demographic/app/config/cbrConfig.js
+http://geo.azmag.gov/maps/demographic/app/config/colorRampConfig.js
+http://geo.azmag.gov/maps/demographic/app/config/demographicConfig.js
+http://geo.azmag.gov/maps/demographic/app/config/interactiveToolConfig.js
+http://geo.azmag.gov/maps/demographic/app/config/searchConfig.js

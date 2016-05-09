@@ -20,3 +20,7 @@ http://geo.azmag.gov/maps/demographic/app/vm/search-vm.js
 http://geo.azmag.gov/maps/demographic/app/vm/social-vm.js
 http://geo.azmag.gov/maps/demographic/app/vm/socialLaunchbar-vm.js
 http://geo.azmag.gov/maps/demographic/app/vm/subscribe-vm.js
+http://geo.azmag.gov/maps/demographic/app/vm/queryBuilder-vm.js
+http://geo.azmag.gov/maps/demographic/app/vm/alert1-vm.js
+http://geo.azmag.gov/maps/demographic/app/vm/alert2-vm.js
+http://geo.azmag.gov/maps/demographic/app/vm/alert3-vm.js

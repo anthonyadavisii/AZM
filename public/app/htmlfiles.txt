@@ -32,4 +32,4 @@ http://geo.azmag.gov/maps/demographic/app/views/classBreaks-view.html
 http://geo.azmag.gov/maps/demographic/app/views/alert3-view.html
 http://geo.azmag.gov/maps/demographic/app/views/mapContainer-view.html
 http://geo.azmag.gov/maps/demographic/app/views/panelHelp-view.html
-http://geo.azmag.gov/maps/demographic/app/views/helplaunchvar-view.html
+http://geo.azmag.gov/maps/demographic/app/views/helplaunchbar-view.html
