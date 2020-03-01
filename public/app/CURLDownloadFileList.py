@@ -24,7 +24,7 @@ def downloadProgress(download_t, download_d, upload_t, upload_d):
     sys.stdout.write("\r%s %3i%%" % ("Download:", frac*100)  )
 
 
-def downloadFiles(fileListFile, failsListFile, outputPath, pauseTimeInit, fileCheck, timeOut):
+def downloadFiles(fileListFile, failsListFile, outputPath, pauseTimeInit=30, fileCheck=False, timeOut=28800):
     print(fileListFile)
     fileList = readFileList(fileListFile)
     #print(fileList)
