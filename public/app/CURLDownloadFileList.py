@@ -24,10 +24,9 @@ def downloadProgress(download_t, download_d, upload_t, upload_d):
     sys.stdout.write("\r%s %3i%%" % ("Download:", frac*100)  )
 
 
-def downloadFiles(fileListFile, failsListFile, outputPath, pauseTimeInit=30, fileCheck=False, timeOut=28800):
-    print(fileListFile)
-    fileList = readFileList(fileListFile)
-    #print(fileList)
+def downloadFiles(urllist, failsListFile, outputPath, pauseTimeInit=30, fileCheck=False, timeOut=28800):
+    print(urllist)
+    #fileList = readFileList(fileListFile)
 
     # Create the fails list with blank file.
     failsFile = open(failsListFile, 'w')
@@ -37,7 +36,7 @@ def downloadFiles(fileListFile, failsListFile, outputPath, pauseTimeInit=30, fil
     lowPauseTime = pauseTimeInit - halfPause
     upPauseTime = pauseTimeInit + halfPause
 
-    for file in fileList:
+    for file in urllist:
         fileName = file.split('/')[-1]
         print(fileName)
         downloadFile = True
@@ -90,7 +89,7 @@ if __name__ == '__main__':
     # Request the version number.
     parser.add_argument('-v', '--version', action='version', version='0.0.1 ')
 
-    parser.add_argument('-i', '--filelist', type=str, required=True,
+    parser.add_argument('-i', '--urllist', type=list, required=True,
                         help='''List of files to download, one file per line with full URL.''')
 
     parser.add_argument('-f', '--failslist', type=str, required=True,
@@ -117,4 +116,4 @@ if __name__ == '__main__':
     # Call the parser to parse the arguments.
     args = parser.parse_args()
 
-    downloadFiles(args.filelist, args.failslist, args.outputpath, args.pause, (not args.nofilecheck), args.timeout)
+    downloadFiles(args.urllist, args.failslist, args.outputpath, args.pause, (not args.nofilecheck), args.timeout)
